@@ -22,7 +22,7 @@ const Cards = () => {
   },[])
 
   return (
-    <div className="flex flex-wrap justify-between px-3 mt-2">
+    <div className="flex flex-wrap justify-start px-3 mt-2 gap-3">
     {loading ? <div className="w-full flex justify-center items-center h-96"><ThreeDots height={40} color="white" /></div> : 
       data.map((e, i) => {
         return (
